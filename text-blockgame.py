@@ -3,7 +3,6 @@
 #
 # Written to test Object Oriented Programming concepts as I learn then.
 #
-# Issues:
 import math
 
 class Vector3:
