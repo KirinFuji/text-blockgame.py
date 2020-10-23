@@ -12,6 +12,7 @@ class Vector3:
         self.z = z        
 
     def GetPos(self):
+        # Hardcoded wrapping due to my xyz grid's 0,0,0 being in a corner instead of a center with negatives tbd wip
         if self.x < 0:
             self.x += 32
         if self.y < 0:
